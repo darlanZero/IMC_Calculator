@@ -1,0 +1,11 @@
+input('Quer calcular seu peso? Venha conosco.')
+peso = float(input('digite seu peso: '))
+altura = float(input('Digite sua altura: '))
+imc = peso /(altura * altura)
+print(f'seu IMC é igual a {imc}')
+if 26 >= int(imc) >= 16:
+    print('Parabens!')
+    print('você está dentro da faixa ideal!')
+else:
+    print('Você tem que cuidar mais da sua saúde!')
+    print('Sendo que o ideal é entre 16 e 26.')
